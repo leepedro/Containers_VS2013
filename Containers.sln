@@ -1,12 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
 # Visual Studio Express 2013 for Windows Desktop
 VisualStudioVersion = 12.0.21005.1
+=======
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+>>>>>>> f2ab39d203ea2a01cf8e0797a3a89c0fc59070b9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms", "Algorithms\Algorithms.vcxproj", "{4A8ACAA2-4765-4056-AD2E-A8707E4C9CD8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Queue", "Queue\Queue.vcxproj", "{98717598-7CF6-44ED-8248-28135D59D169}"
 EndProject
+<<<<<<< HEAD
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Deque", "Deque\Deque.vcxproj", "{8054076F-9EE2-41F7-94EC-29EA56E6E92A}"
+EndProject
+>>>>>>> f2ab39d203ea2a01cf8e0797a3a89c0fc59070b9
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +31,13 @@ Global
 		{98717598-7CF6-44ED-8248-28135D59D169}.Debug|Win32.Build.0 = Debug|Win32
 		{98717598-7CF6-44ED-8248-28135D59D169}.Release|Win32.ActiveCfg = Release|Win32
 		{98717598-7CF6-44ED-8248-28135D59D169}.Release|Win32.Build.0 = Release|Win32
+<<<<<<< HEAD
+=======
+		{8054076F-9EE2-41F7-94EC-29EA56E6E92A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8054076F-9EE2-41F7-94EC-29EA56E6E92A}.Debug|Win32.Build.0 = Debug|Win32
+		{8054076F-9EE2-41F7-94EC-29EA56E6E92A}.Release|Win32.ActiveCfg = Release|Win32
+		{8054076F-9EE2-41F7-94EC-29EA56E6E92A}.Release|Win32.Build.0 = Release|Win32
+>>>>>>> f2ab39d203ea2a01cf8e0797a3a89c0fc59070b9
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
