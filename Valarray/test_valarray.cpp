@@ -1,4 +1,5 @@
 #include <valarray>
+#include <complex>
 
 void Test1(void)
 {
@@ -12,6 +13,14 @@ void Test1(void)
 	auto shifted2 = data1.shift(-1);
 	// NOTE: slice is not another array.
 	auto slice1 = data1[std::slice(0, 3, 2)];
+	auto it_1 = std::begin(data1);
+	auto end_1 = std::end(data1);
+
+	// In little-endian system, two bytes {1, 2} became one short as 2x256 + 1 = 513.
+	auto cast_it_1 = reinterpret_cast<unsigned short *>(it_1);
+
+	std::valarray<std::complex<float>> data3(3);
+	data3[0] = std::complex<float>(1.0f, 2.0f);
 }
 
 int main(void)
