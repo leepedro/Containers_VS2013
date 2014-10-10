@@ -23,7 +23,21 @@ void Test1(void)
 	data3[0] = std::complex<float>(1.0f, 2.0f);
 }
 
+void TestCasting(void)
+{
+	// Widening casting runs with little-endian.
+	std::valarray<unsigned char> data_b1 = { 1, 2, 3, 4, 5, 6, 7, 8 };
+	std::valarray<unsigned short> data_s1(reinterpret_cast<unsigned short *>(std::begin(data_b1)), 4);
+	// {513, 1027, 1541, 2055}
+
+	// Multi-byte data type can be stored as byte type and restored to original values.
+	std::valarray<float> data_f1 = { 1.0, 2.0, 3.0, 4.0 };
+	std::valarray<unsigned char> data_b2(reinterpret_cast<unsigned char *>(std::begin(data_f1)), 16);
+	std::valarray<float> data_f2(reinterpret_cast<float *>(std::begin(data_b2)), 4);
+}
+
 int main(void)
 {
-	Test1();
+	//Test1();
+	TestCasting();
 }
