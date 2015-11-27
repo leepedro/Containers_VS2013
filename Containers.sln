@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms", "Algorithms\Algorithms.vcxproj", "{4A8ACAA2-4765-4056-AD2E-A8707E4C9CD8}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "List", "List\List.vcxproj", "{D2DC15AB-BFF3-4C03-87AD-E052EF809E43}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valarray", "Valarray\Valarray.vcxproj", "{03819B2D-6A57-4FD5-AD05-3FFB9DF6E02D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set", "Set\Set.vcxproj", "{6FECA4CD-4CC5-4649-A224-A6F08A186909}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{03819B2D-6A57-4FD5-AD05-3FFB9DF6E02D}.Debug|Win32.Build.0 = Debug|Win32
 		{03819B2D-6A57-4FD5-AD05-3FFB9DF6E02D}.Release|Win32.ActiveCfg = Release|Win32
 		{03819B2D-6A57-4FD5-AD05-3FFB9DF6E02D}.Release|Win32.Build.0 = Release|Win32
+		{6FECA4CD-4CC5-4649-A224-A6F08A186909}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FECA4CD-4CC5-4649-A224-A6F08A186909}.Debug|Win32.Build.0 = Debug|Win32
+		{6FECA4CD-4CC5-4649-A224-A6F08A186909}.Release|Win32.ActiveCfg = Release|Win32
+		{6FECA4CD-4CC5-4649-A224-A6F08A186909}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
