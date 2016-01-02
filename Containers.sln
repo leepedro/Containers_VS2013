@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valarray", "Valarray\Valarr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set", "Set\Set.vcxproj", "{6FECA4CD-4CC5-4649-A224-A6F08A186909}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Map", "Map\Map.vcxproj", "{B1C0728A-756C-437E-91D3-1A81BB067145}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -45,6 +47,10 @@ Global
 		{6FECA4CD-4CC5-4649-A224-A6F08A186909}.Debug|Win32.Build.0 = Debug|Win32
 		{6FECA4CD-4CC5-4649-A224-A6F08A186909}.Release|Win32.ActiveCfg = Release|Win32
 		{6FECA4CD-4CC5-4649-A224-A6F08A186909}.Release|Win32.Build.0 = Release|Win32
+		{B1C0728A-756C-437E-91D3-1A81BB067145}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1C0728A-756C-437E-91D3-1A81BB067145}.Debug|Win32.Build.0 = Debug|Win32
+		{B1C0728A-756C-437E-91D3-1A81BB067145}.Release|Win32.ActiveCfg = Release|Win32
+		{B1C0728A-756C-437E-91D3-1A81BB067145}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
